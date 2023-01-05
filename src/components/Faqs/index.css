@@ -1,0 +1,17 @@
+/* Write your code here. */
+.faqs-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.faqs-items-box {
+  width: 80%;
+  margin: auto;
+}
+.heading {
+  color: #cb8805;
+}
