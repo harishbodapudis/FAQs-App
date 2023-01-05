@@ -24,31 +24,31 @@
 }
 .answer-text {
   color: #9aa5b1;
+  font-size: 14px;
 }
 .question-text {
   color: #52606d;
+  font-weight: 600;
+  font-size: 18px;
 }
 .plus-minus-btn {
-  color: #cb8805;
-  border: 1px solid #cb8805;
   background-color: transparent;
-  border-radius: 20px;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  width: 23px;
-  text-align: center;
+  border-width: 0px;
 }
-
+.plus-minus-img {
+  height: 18px;
+  width: 18px;
+}
 @media (width < 992px) {
   .answer-text {
-    font-size: 14px;
+    font-size: 12px;
   }
   .question-text {
     font-size: 14px;
   }
-  .plus-minus-btn {
-    font-size: 13px;
-    width: 21px;
+  .plus-minus-img {
+    height: 18px;
+    width: 18px;
   }
 }

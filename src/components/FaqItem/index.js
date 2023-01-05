@@ -15,12 +15,24 @@ const FaqItem = props => {
   ) : (
     ''
   )
-  const symbol = idsList.includes(id) ? '-' : '+'
+  const symbol = idsList.includes(id) ? (
+    <img
+      src="https://assets.ccbp.in/frontend/react-js/faqs-minus-icon-img.png "
+      className="plus-minus-img"
+      alt="minus"
+    />
+  ) : (
+    <img
+      src="https://assets.ccbp.in/frontend/react-js/faqs-plus-icon-img.png "
+      className="plus-minus-img"
+      alt="plus"
+    />
+  )
   return (
     <li className="question-box">
       <div className="question-button-box">
         <div>
-          <p className="question-text">{questionText}</p>
+          <h1 className="question-text">{questionText}</h1>
         </div>
         <div>
           <button type="button" onClick={showAnswer} className="plus-minus-btn">
